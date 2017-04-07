@@ -1,0 +1,70 @@
+
+
+/*旋转木马样式*/
+#carouselBox{
+	
+	position:relative;
+	width:800px;
+	height:350px;
+	margin: 0 auto;
+}
+#carouselBox a, #carouselBox img{
+	display: block;
+}
+
+.pictureslist{
+	width: 600px;
+	height: 350px;
+}
+.picshow{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.arrow{
+	position:absolute;
+	top: 0;
+	width: 100px;
+	height: 350px;
+	z-index: 10;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.arrow_pre{
+	left: 0;
+	background: url(../images/btn_l.png) no-repeat center center;
+}
+
+.arrow_aft{
+	right: 0;
+	background: url(../images/btn_r.png) no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
